@@ -1,0 +1,113 @@
+.home_container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+    background-image: url("https://wallpaperforu.com/wp-content/uploads/2020/08/food-wallpaper-20080219232012.jpg");
+}
+
+.card_container{
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 2%;
+    gap: 2%;
+    grid-auto-columns: minmax(0,1fr);
+
+}
+
+.card_cont{
+    background-color: white;
+    opacity: 0.8;
+    border-radius:10px;
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    line-height: 30px;
+    padding: 10px;
+  
+}
+.sec_cont{
+   
+}
+.title{
+   color: green;
+   font-weight: 100;
+   font-family:'Times New Roman', Times, serif;
+   font-style: italic;
+}
+.view_btn{
+   
+}
+.sec_cont{
+    display: flex;
+    flex-direction: column;
+}
+
+.other_cont{
+    margin:auto;
+    position: absolute;
+    top: 10px;
+    right:10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.btn, .view_btn {
+  background-color: green;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 15px;
+}
+
+.btn:hover ,.view_btn:hover{
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+@media only screen and (max-width: 1159px){
+.card_container {
+    grid-template-columns: repeat(2,1fr);
+}}
+
+.recipe{
+   padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.recipe-heading{
+    color: white;
+    background-color: green;
+    opacity: 0.9;
+   margin: auto;
+    width: 50%;
+    overflow: auto;
+}
+.recipe-desc{
+    background-color: white;
+    margin: auto;
+    width: 50%;
+    overflow: auto;
+}
+
+.recipe-page{
+    background: url("https://images.unsplash.com/photo-1506368249639-73a05d6f6488?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+
+    height: 100vh;
+  
+}

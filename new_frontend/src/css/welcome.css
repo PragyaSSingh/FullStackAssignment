@@ -1,0 +1,82 @@
+.title {
+    font-size: 95px;
+  }
+  .subtitle {
+    font-size: 25px;
+    padding-top: 10px;
+  }
+  .intro-text {
+    width: 100%;
+    text-align: center;
+  }
+  .main {
+    min-height: 93vh;
+    display: flex;
+    align-items: center;
+    background-image: url("https://wallpaperforu.com/wp-content/uploads/2020/08/food-wallpaper-20080219232012.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  .buttonContainer {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    margin-left: 400px;
+   margin-bottom: 100px;
+  }
+
+  .cook{
+    font-style: bold;
+    margin: auto;
+    
+  }
+
+  .cook_cont{
+      background-color: white;
+      color: red;
+      padding: 10px;
+     font-style: italic;
+     border-style: solid;
+     border-width: 5px;
+     border-radius: 10px;
+     border-color: green;
+  }
+  
+  .landingbutton {
+  
+    color: white;
+    font-weight: bold;
+    border: 20px;
+    border-radius: 20px;
+    background-color: black;
+    margin-top: 30px;
+    width: 200px;
+    height: 55px;
+    cursor: pointer;
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    .buttonContainer {
+      padding: 0 200px;
+      margin-left: 750px;
+    }
+    .title {
+      padding: 0 100px;
+    }
+
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .title {
+      font-size: 60px;
+    }
+    .landingbutton {
+      width: 150px;
+      height: 50px;
+    }
+    .buttonContainer{
+        margin-left: 400px;
+    }
+  }
